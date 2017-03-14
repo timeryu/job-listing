@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -16,4 +17,60 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
- @import "font-awesome"
+ @import "font-awesome";
+
+.jumbotron {
+  background-image:url('http://www.everydayinterviewtips.com/wp-content/uploads/2014/10/64262758-Jakub-Jirsak-job-search-.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
+  color: white;
+}
+
+.title {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  text-align: left;
+  margin-top: 285px;
+  margin-bottom: 80px;
+
+}
+
+.slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: right;
+  color: white;
+  top: 12px;
+}
+
+.lead {
+  margin-bottom: 60px;
+  text-align: right;
+  color: white;
+}
+
+.caption {
+ margin: 30px;
+ text-align: center;
+ top: 20px;
+}
+
+.thumbnail {
+   border: 0 none;
+   box-shadow: none;
+   margin-top: 60px;
+}
+ .custab{
+   border: 1px solid #ccc;
+
+   padding: 5px;
+   margin: 5% 0;
+   box-shadow: 3px 3px 2px #ccc;
+
+   transition: 0.5s;
+ }
+
+ .custab:hover{
+   box-shadow: 3px 3px 0px transparent;
+   transition: 0.5s;
+ }
